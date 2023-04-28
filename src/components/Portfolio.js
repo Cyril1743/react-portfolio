@@ -4,6 +4,9 @@ import Work from "./pages/Work";
 import Contact from "./pages/Contact";
 import Resume from "./pages/Resume";
 import NavBar from "./NavBar"
+import Footer from "./Footer"
+import Header from "./Header"
+import "../styles/index.css"
 
 export default function Portfolio() {
     const [page, setPage] = useState("AboutMe")
@@ -24,7 +27,9 @@ export default function Portfolio() {
     return (
         <div>
             <NavBar page={page} setPage={setPage} />
+            <Header page={page} />
             {renderPage()}
+            <Footer />
         </div>
     )
 }
