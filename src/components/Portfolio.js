@@ -25,7 +25,7 @@ export default function Portfolio() {
     }
 
     return (
-        <div>
+        <div className="page-wrapper">
             <NavBar page={page} setPage={setPage} />
             <Header page={page} />
             {renderPage()}

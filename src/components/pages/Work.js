@@ -11,8 +11,12 @@ const projectURL = ["https://thawing-hollows-54875.herokuapp.com/", "https://saf
 
 export default function Work() {
     return (
-        projectRepo.map((project, index) => {
-            return <Project projectRepo={project} img={projectImgs[index]} projectName={projectName[index]} projectURL={projectURL[index]} />
-        })
+        <div className="container">
+            <div className="row">
+                {projectRepo.map((project, index) => {
+                    return <Project projectRepo={project} img={projectImgs[index]} projectName={projectName[index]} projectURL={projectURL[index]} key={index} />
+                })}
+            </div>
+        </div>
     )
 }

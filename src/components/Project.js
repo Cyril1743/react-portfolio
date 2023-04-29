@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 
 export default function Project({projectRepo, img, projectName, projectURL}) {
+  //Use States to store whether the picture is hovered or not
     const [isHovered, setIsHovered] = useState(false);
 
   const handleMouseEnter = () => {
@@ -12,24 +13,24 @@ export default function Project({projectRepo, img, projectName, projectURL}) {
   };
 
   return (
-    <div className="container">
-      <div className="position-relative">
-        <h2>{projectName}</h2>
+    <div className="col-md-6">
+      <h3>{projectName}</h3>
+      <div className="position-relative" onMouseEnter={handleMouseEnter}
+          onMouseLeave={handleMouseLeave}>
+        
         <img
           src={img}
           alt="Screenshot of Project"
-          className={`img-fluid ${isHovered ? "blur-image" : ""}`}
-          onMouseEnter={handleMouseEnter}
-          onMouseLeave={handleMouseLeave}
+          className={`img-fluid ${isHovered ? "blur-image blur-effect" : "blur-image"}`}
+          
         />
         {isHovered && (
-          <div className="position-absolute top-50 start-50 translate-middle">
-            <a href={projectRepo} className="badge bg-primary"><img src="/imgs/githubLogo.png" alt="Link to Repo" /></a>
-            <span className="badge bg-secondary">Symbol 2</span>
+          <div className="position-absolute bottom-50 start-0">
+            <a href={projectRepo} className="badge" target="_blank" rel="noreferrer"><img className="github-icon" src="/imgs/githubLogo.png" alt="Link to Repo"/></a>
+            <a href={projectURL} className="badge" target="_blank" rel="noreferrer"><img className="project-icon" src="/imgs/browser-icon.png" alt="Link to Deployed Application" /></a>
           </div>
         )}
       </div>
-      <p>Content of MyComponent</p>
     </div>
   );
 }

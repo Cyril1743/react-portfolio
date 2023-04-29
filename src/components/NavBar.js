@@ -5,6 +5,9 @@ export default function NavBar({ page, setPage }) {
     return (
         <ul className="navbar">
             <li className="nav-item">
+                <h1>David Love</h1>
+            </li>
+            <li className="nav-item">
                 <a
                     href="#aboutMe"
                     onClick={() => setPage("AboutMe")}

@@ -3,8 +3,8 @@ import "../styles/index.css"
 
 export default function Footer() {
     return (
-        <footer>
-            <div className="container">
+        <footer className="fixed-bottom">
+            <div className="container-fluid">
                 <div className="row">
                     <div className="col-12">
                     <ul className="footer-list d-flex justify-content-center" >
