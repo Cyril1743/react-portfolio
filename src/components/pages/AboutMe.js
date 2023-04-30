@@ -5,8 +5,8 @@ const style = {
     backgroundColor: "#535B8D",
     width: '100%',
     height: '100%',
-    margin: 0,
-    padding: 0
+    margin: '10px',
+    padding: '10px'
 }
 
 export default function AboutMe() {

@@ -69,6 +69,14 @@ ul {
 
   }
 
+  .resume {
+    margin: 10px
+  }
+
+  h2 {
+    margin: 10px;
+  }
+
 /* TODO: Make the icons responsive with the screen size*/
   @media only screen and (max-width:  ){
     
