@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Cyril1743/react-portfolio.git/static/css/main.ba6d60f1.css",
+    "main.js": "/Cyril1743/react-portfolio.git/static/js/main.6f52709b.js",
+    "index.html": "/Cyril1743/react-portfolio.git/index.html",
+    "main.ba6d60f1.css.map": "/Cyril1743/react-portfolio.git/static/css/main.ba6d60f1.css.map",
+    "main.6f52709b.js.map": "/Cyril1743/react-portfolio.git/static/js/main.6f52709b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ba6d60f1.css",
+    "static/js/main.6f52709b.js"
+  ]
+}
