@@ -1,13 +1,22 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.ba6d60f1.css",
-    "main.js": "/react-portfolio/static/js/main.6f52709b.js",
+    "main.js": "/react-portfolio/static/js/main.a78e4abc.js",
+    "static/media/Family-144851.jpg": "/react-portfolio/static/media/Family-144851.f2c41d287c078f426078.jpg",
+    "static/media/repairradar.jpg": "/react-portfolio/static/media/repairradar.2ac8523829c5031f96e0.jpg",
+    "static/media/gps-satellite.png": "/react-portfolio/static/media/gps-satellite.97dc789e248d0675ce70.png",
+    "static/media/weather-dashboard.png": "/react-portfolio/static/media/weather-dashboard.7fd42b35ca4220ab629c.png",
+    "static/media/browser-icon.png": "/react-portfolio/static/media/browser-icon.16ecc0aff1ded93cb2a2.png",
+    "static/media/note-taker.png": "/react-portfolio/static/media/note-taker.6ee088ee55baeea07510.png",
+    "static/media/tech-blog.png": "/react-portfolio/static/media/tech-blog.edb5d8590f9ef3866ce3.png",
+    "static/media/text-editor.png": "/react-portfolio/static/media/text-editor.3af78849615d93ac62bd.png",
+    "static/media/githubLogo.png": "/react-portfolio/static/media/githubLogo.a3860c0b4b533c8994a3.png",
     "index.html": "/react-portfolio/index.html",
     "main.ba6d60f1.css.map": "/react-portfolio/static/css/main.ba6d60f1.css.map",
-    "main.6f52709b.js.map": "/react-portfolio/static/js/main.6f52709b.js.map"
+    "main.a78e4abc.js.map": "/react-portfolio/static/js/main.a78e4abc.js.map"
   },
   "entrypoints": [
     "static/css/main.ba6d60f1.css",
-    "static/js/main.6f52709b.js"
+    "static/js/main.a78e4abc.js"
   ]
 }
