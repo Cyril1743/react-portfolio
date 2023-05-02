@@ -1,10 +1,11 @@
 import React from "react";
+import resume from "../../docs/resume.docx"
 
 //Function to make the Resume page
 export default function Resume() {
  return (
     <div className="resume">
-    <p>Download my <a href="/resume.docx" download='resume.docx'>resume</a></p>
+    <p>Download my <a href={resume} download={resume}>resume</a></p>
     <h3>Front End Proficiencies</h3>
     <ul>
         <li>HTML</li>
