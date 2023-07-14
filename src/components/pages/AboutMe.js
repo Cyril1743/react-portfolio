@@ -19,7 +19,7 @@ export default function AboutMe() {
     return (
         <div style={style}>
             <img className="profile" src={profilePicture} alt="David"></img>
-            <p style={pStyle}>Experienced Full Stack Developer with a passion for creating high-quality applications that meet business needs. Skilled in UI design, API development, and cloud apps. Collaborative team player who values technical excellence and continuous improvement. Started in Retail over 8 years ago and currently pursuing a Full Stack BootCamp Certificate from the University of Kansas.
+            <p style={pStyle}>Experienced Full Stack Developer with a passion for creating high-quality applications that meet business needs. Skilled in UI design, API development, and cloud apps. Collaborative team player who values technical excellence and continuous improvement. Started in Retail over 9 years ago and currently possessing a Full Stack BootCamp Certificate from the University of Kansas.
             </p>
         </div>
 
